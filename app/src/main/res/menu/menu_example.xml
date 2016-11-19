@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+	<item
+		android:id="@+id/item1"
+	    android:title="@string/username"
+	    android:icon="@android:drawable/alert_light_frame"
+		app:showAsAction="ifRoom"/>
+
+	<item
+		android:id="@+id/item2"
+		android:title="@string/pwd"
+		android:icon="@android:drawable/arrow_down_float"
+		app:showAsAction="never"/>
+
+</menu>
